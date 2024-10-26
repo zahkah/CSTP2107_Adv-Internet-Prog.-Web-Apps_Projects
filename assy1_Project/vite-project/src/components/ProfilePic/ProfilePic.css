@@ -1,0 +1,22 @@
+.pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;  /* Padding around the image */
+}
+
+img {
+    width: 80px;  /* Fixed width for consistency */
+    height: 80px;  /* Fixed height to maintain aspect ratio */
+    border-radius: 50%;  /* Circular images */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Subtle shadow for depth */
+    border: 3px solid #fff;  /* White border for contrast against potentially dark backgrounds */
+    object-fit: cover;  /* Ensure the image covers the area without distortion */
+}
+
+@media (max-width: 600px) {
+    .pic-container img {
+        width: 60px;
+        height: 60px;
+    }
+}
