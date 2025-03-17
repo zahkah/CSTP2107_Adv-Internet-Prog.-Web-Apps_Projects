@@ -1,0 +1,26 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 0px; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.form-control input {
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(104, 197, 104);
+    margin-top: 20px;
+    color: white;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
