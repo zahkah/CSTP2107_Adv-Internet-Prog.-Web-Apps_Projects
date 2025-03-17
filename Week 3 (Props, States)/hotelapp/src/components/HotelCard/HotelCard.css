@@ -1,0 +1,28 @@
+.card-container {
+    background-color: beige;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.card-container h3 {
+    padding: 20px;
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-sub-body{ 
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.card-sub-body img {
+    width: 30px;
+}
